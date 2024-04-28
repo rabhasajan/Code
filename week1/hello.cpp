@@ -1,9 +1,12 @@
 #include<iostream>
-// using namespace std;
+using namespace std;
 
 int main(){
-    std::cout<<"hello"<<std::endl;
-    std::cout<<"just updated the code!!"<<std::endl;
 
+    cout<<"hello"<<endl;
+    
+   /* std::cout<<"hello"<<std::endl;
+    std::cout<<"just updated the code!!"<<std::endl; 
+    */
     return 0;
 }
