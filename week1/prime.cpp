@@ -14,7 +14,7 @@ bool printPrime(int input){
 }
 int main(){
 
-    for(int input=2; input<=100; i++){
+    for(int input=2; input<=100; input++){
         if (printPrime(input)){
             cout<<input<<" ";
         }
