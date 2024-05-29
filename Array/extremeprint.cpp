@@ -10,6 +10,8 @@ void printExtreme(int arr[],int size){
     left++;
 
     if(right > left){
+     //this condition is for not printing 
+    //  the last value twice if the array size is even
     cout<<arr[right]<<" ";
     right--;
     }
