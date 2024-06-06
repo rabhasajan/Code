@@ -12,7 +12,7 @@ void printReverse(int arr[],int size){ //reversing using two pointer method
 //     right--;
 //    }
 
-   //logic for OP coders
+   //logic for OP coders using post incremenlt operator
    while(left < right){
     swap(arr[left++] ,arr[right--]);
    }
@@ -31,6 +31,7 @@ int main(){
     // printReverse(arr,size);// method -> 1
 
     reverse(arr, arr + size);//PRO way of reversing an array
+    //by using inbuilt function
     for(int index = 0; index < size; index++){
     cout<<arr[index]<<" ";
    }

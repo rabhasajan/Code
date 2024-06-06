@@ -30,7 +30,7 @@ pair<int,int> checkTwoSum(int arr[], int size,int target){
 int main(){
     int arr[] = {5,10,20,30,40,50};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int target = 37;
+    int target = 50;
     pair<int,int> ans = checkTwoSum(arr, size, target);
     if(ans.first == -1 && ans.second == -1){
         cout<<"target not found"<<endl;

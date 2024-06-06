@@ -5,6 +5,7 @@ bool linearSearch( int arr[], int size, int target){
 
     for(int index = 0;index < size; index++){
         if(arr[index] == target){
+           
             return true;
         }
     }
